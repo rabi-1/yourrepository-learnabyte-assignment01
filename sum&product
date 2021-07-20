@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int n;
+	int a,b,c;
+	scanf("%d",&n);
+	printf("enter the two number");
+	scanf("%d",&a);
+	scanf("%d",&b);
+	if(n==1)
+	{
+		c=a+b;
+		printf("%d",c);
+	}
+	if(n==2)
+	{
+		c=a*b;
+		printf("%d",c);
+	}
+}
